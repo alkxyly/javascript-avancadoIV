@@ -9,3 +9,10 @@ document
     .sumItems('2143')
     .then(console.log)
     .catch(console.log);
+
+
+
+const ehDivisivel = (divisor, numero) => !(numero % divisor);
+
+const ehDivisivelPorDois = ehDivisivel.bind(null, 2);
+console.log(ehDivisivelPorDois(15));

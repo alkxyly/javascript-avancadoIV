@@ -1,0 +1,54 @@
+[33mcommit 0e686861d612d583a45bde41ab239a2ac8ea5933[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m)[m
+Author: Alkxyly <alkxyly@hotmail.com>
+Date:   Fri Mar 6 12:58:34 2020 -0300
+
+    Teste com bind em funcao
+
+[33mcommit 5ae33921613a36cb93b5d76b2f7d8aad8f56c3e3[m[33m ([m[1;31morigin/develop[m[33m)[m
+Merge: 70bbb98 5743ac0
+Author: Alkxyly <alkxyly@hotmail.com>
+Date:   Thu Mar 5 14:52:57 2020 -0300
+
+    Merge branch 'feature/modulo2' into develop
+
+[33mcommit 5743ac04e4ea8c059b4666d11b11580303c19aea[m
+Author: Alkxyly <alkxyly@hotmail.com>
+Date:   Thu Mar 5 14:51:51 2020 -0300
+
+    Criando a classe de serviço
+
+[33mcommit da5b6ba53b3e546a26f2341bcedf62f15f1de292[m
+Author: Alkxyly <alkxyly@hotmail.com>
+Date:   Thu Mar 5 14:35:58 2020 -0300
+
+    isolando a soma de itens e adicionando parametro a funcao
+
+[33mcommit 7c9968230f28eafe575ec5543cdae003a083116d[m
+Author: Alkxyly <alkxyly@hotmail.com>
+Date:   Thu Mar 5 14:19:41 2020 -0300
+
+    Implementando a função flatMap
+
+[33mcommit be31481f0ee310461631985aee95f82ea8fc3464[m
+Author: Alkxyly <alkxyly@hotmail.com>
+Date:   Thu Mar 5 14:05:16 2020 -0300
+
+    Criando uma funcao para log dentro da Promise
+
+[33mcommit 381efa1474821a5608a514bb09c98f3df5296fb8[m
+Author: Alkxyly <alkxyly@hotmail.com>
+Date:   Thu Mar 5 13:55:27 2020 -0300
+
+    Somando todos os itens com código igual a 2143
+
+[33mcommit 70bbb981ffab85a994603dfc4b472ed8567533a9[m[33m ([m[1;32mrelease/0.1.0[m[33m)[m
+Author: Alkxyly <alkxyly@hotmail.com>
+Date:   Thu Mar 5 13:31:08 2020 -0300
+
+    Consumindo ENDPoint REST com API fetch
+
+[33mcommit 84676c7aa05ed27cbe6ef387f40d305ae59e6fee[m
+Author: Alkxyly <alkxyly@hotmail.com>
+Date:   Thu Mar 5 11:39:31 2020 -0300
+
+    commit initial

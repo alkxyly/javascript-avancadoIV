@@ -1,7 +1,18 @@
-import { handleStatus } from './utils/promise-helpers.js';
+import { log } from './utils/promise-helpers.js';
+import './utils/array-helpers.js';
+import { notasService as service } from './nota/service.js';
 
-document.querySelector('#myButton').onclick = () =>
-    fetch('http://localhost:3000/notas')
-    .then(handleStatus)
-    .then(notas => console.log(notas))
+document
+    .querySelector('#myButton')
+    .onclick = () =>
+    service
+    .sumItems('2143')
+    .then(console.log)
     .catch(console.log);
+
+
+
+const ehDivisivel = (divisor, numero) => !(numero % divisor);
+
+const ehDivisivelPorDois = ehDivisivel.bind(null, 2);
+console.log(ehDivisivelPorDois(15));

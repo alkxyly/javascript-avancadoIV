@@ -1,4 +1,5 @@
 import { handleStatus } from '../utils/promise-helpers.js';
+import { partialize } from '../utils/operators.js';
 
 const API = `http://localhost:3000/notas`;
 
@@ -23,9 +24,12 @@ export const notasService = {
             });
     },
 
-    // novo método
+
     sumItems(code) {
 
-        return this.listAll().then(sumItems(code));
+        const filterItems = partialize(filterItemsByCode, code);
+
+        return this.listAll()
+            .then(notas => sumItemsValue(filterItems(getItemsFromNotas(notas))));
     }
 };
